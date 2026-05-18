@@ -1,0 +1,18 @@
+# reference downloads (used for local development only)
+hausdorff_*.html
+hausdorff_*.css
+fox.png
+pet.png
+attractor.svg
+
+# local screenshots / browser testing artifacts
+.playwright-mcp/
+*-test.png
+top-*.png
+
+# local snapshot backup
+v1/
+
+# editor / harness scratch
+.claude/
+*.tmp
