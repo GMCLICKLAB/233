@@ -1,6 +1,6 @@
 # reference downloads (used for local development only)
-hausdorff_*.html
-hausdorff_*.css
+hausdorff*.html
+hausdorff*.css
 fox.png
 pet.png
 attractor.svg
