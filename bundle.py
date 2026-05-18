@@ -16,11 +16,11 @@ def b64(path: pathlib.Path) -> str:
     return base64.b64encode(path.read_bytes()).decode("ascii")
 
 assets = {
-    "/fonts/eb-garamond-regular.woff2":   ("font/woff2",      ROOT / "fonts/eb-garamond-regular.woff2"),
-    "/fonts/eb-garamond-italic.woff2":    ("font/woff2",      ROOT / "fonts/eb-garamond-italic.woff2"),
-    "/fonts/jetbrains-mono-regular.woff2":("font/woff2",      ROOT / "fonts/jetbrains-mono-regular.woff2"),
-    "/lyapunov.png":                      ("image/png",       ROOT / "lyapunov.png"),
-    "/favicon.svg":                       ("image/svg+xml",   ROOT / "favicon.svg"),
+    "./fonts/eb-garamond-regular.woff2":   ("font/woff2",     ROOT / "fonts/eb-garamond-regular.woff2"),
+    "./fonts/eb-garamond-italic.woff2":    ("font/woff2",     ROOT / "fonts/eb-garamond-italic.woff2"),
+    "./fonts/jetbrains-mono-regular.woff2":("font/woff2",     ROOT / "fonts/jetbrains-mono-regular.woff2"),
+    "./lyapunov.png":                      ("image/png",      ROOT / "lyapunov.png"),
+    "./favicon.svg":                       ("image/svg+xml",  ROOT / "favicon.svg"),
 }
 
 replacements = 0
